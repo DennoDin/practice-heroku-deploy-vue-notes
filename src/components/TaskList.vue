@@ -15,7 +15,7 @@ export default ({
         TaskItem,
     },
     props:{
-        taskList: Object,
+        taskList: Array,
     }
 })
 </script>
