@@ -22,6 +22,9 @@ export default ({
         addTask(item){
             this.tasks.push(item);
         }
+    },
+    mounted: () => {
+        console.log("mounted!");
     }
 })
 </script>
